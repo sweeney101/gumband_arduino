@@ -1,0 +1,86 @@
+{
+    "packages": 
+    [
+        {
+            "name": "gumband_arduino",
+            "maintainer": "Deeplocal",
+            "websiteURL": "http://deeplocal.com",
+            "email": "gumband@deeplocal.com",
+            "help": {
+                "online": "http://deeplocal.com"
+            },
+            "platforms": 
+            [
+                {
+                    "name": "Gumband",
+                    "architecture": "gumband",
+                    "version": "1.0.0",
+                    "category": "Gumband",
+                    "url": "https://ardhat.github.io/ardhat-board-support/arduino/ardhat-1.0.0.tar.bz2",
+                    "archiveFileName": "ardhat-1.0.0.tar.bz2",
+                    "checksum": "SHA-256:7e264c1adaccd6df921645db2f11d176a512e3febcd64c20353a4c55c7aca6ac",
+                    "size": "8727289",
+                    "boards": 
+                    [
+                        {
+                            "name": "Gumband 1"
+                        }
+                    ],
+                    "toolsDependencies": 
+                    [
+                        {
+                            "packager": "arduino",
+                            "name": "avr-gcc",
+                            "version": "4.8.1-arduino5"
+                        },
+                        {
+                            "packager": "arduino",
+                            "name": "avrdude",
+                            "version": "6.0.1-arduino5"
+                        }
+                    ]
+                }
+            ],
+            "tools": 
+			[
+			{
+			    "name": "gcc-arm-none-eabi",
+				"version": "5_2-2015q4",
+				"systems": 
+				[
+					{
+					  "host": "i386-apple-darwin11",
+					  "checksum": "MD5:603bcce8e59683ac27054b3197a53254",
+					  "size": "96372129",
+					  "archiveFileName": "gcc-arm-none-eabi-5_2-2015q4-20151219-mac.tar.bz2",
+					  "url": "https://github.com/adafruit/Adafruit_nRF52_Arduino/releases/download/gcc-5_2-2015q4/gcc-arm-none-eabi-5_2-2015q4-20151219-mac.tar.bz2"
+					},
+					{
+					  "host": "i686-linux-gnu",
+					  "checksum": "MD5:f88caac80b4444a17344f57ccb760b90",
+					  "size": "92811866",
+					  "archiveFileName": "gcc-arm-none-eabi-5_2-2015q4-20151219-linux.tar.bz2",
+					  "url": "https://github.com/adafruit/Adafruit_nRF52_Arduino/releases/download/gcc-5_2-2015q4/gcc-arm-none-eabi-5_2-2015q4-20151219-linux.tar.bz2"
+					},
+					{
+					  "host": "x86_64-pc-linux-gnu",
+					  "checksum": "MD5:f88caac80b4444a17344f57ccb760b90",
+					  "size": "92811866",
+					  "archiveFileName": "gcc-arm-none-eabi-5_2-2015q4-20151219-linux.tar.bz2",
+					  "url": "https://github.com/adafruit/Adafruit_nRF52_Arduino/releases/download/gcc-5_2-2015q4/gcc-arm-none-eabi-5_2-2015q4-20151219-linux.tar.bz2"
+					},
+					{
+					  "host": "i686-mingw32",
+					  "checksum": "MD5:32d950225b6c7c886f6225c1fc578934",
+					  "size": "102981732",
+					  "archiveFileName": "gcc-arm-none-eabi-5_2-2015q4-20151219-win32.tar.bz2",
+					  "url": "https://github.com/adafruit/Adafruit_nRF52_Arduino/releases/download/gcc-5_2-2015q4/gcc-arm-none-eabi-5_2-2015q4-20151219-win32.tar.bz2"
+					}
+				]
+			}
+			]
+        }
+    ]
+}
+
+
